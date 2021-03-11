@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.navbar {
+  display: inline-block;
+}
+.navbar__li {
+  float: left;
+  list-style-type: none;
+}
+.navbar__ul {
+  margin-top: 35px;
+}
+.navbar__link {
+  background-color: #616060;
+  color: #B99D9C;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px 10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.navbar__link:hover {
+  background-color: #c3cfe2;
+  color: #D56664;
+  font-weight: bold;
+}
+
+.current-page {
+  background-color: #c3cfe2;
+  color: #616060;
+  border-bottom: 3px solid #616060;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body, html {
+  background: #c3cfe2;
+  line-height: 35px;
+  font-size: 1rem;
+  height: 100%;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 0.1rem;
+  color: #616060;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 50px;
+  color: #D56664;
+  font-weight: bold;
+}
+
+.social {
+  position: fixed;
+  top: 40%;
+  right: 0%;
+  width: 230px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.social__icon {
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  padding: 0px 5px;
+  transform: translate(186px, 0px);
+  transition: all 1s ease 0.2s;
+}
+.social__icon:hover {
+  transform: translate(0px, 0px);
+  text-decoration: underline;
+}
+.social__icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.social--blog {
+  background-color: #e17b77;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social--blog::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.2rem;
+  content: "";
+  margin: 5px 5px;
+}
+.social--twitter {
+  background-color: #00aced;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social--twitter::before {
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 1.2rem;
+  content: "";
+  margin: 5px 8px;
+}
+.social--linkedin {
+  background-color: #007bb6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social--linkedin::before {
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 1.2rem;
+  content: "";
+  margin: 5px 8px;
+}
+.social--facebook {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social--facebook::before {
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 1.2rem;
+  content: "";
+  margin: 5px 11px;
+}
+.social--github {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social--github::before {
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 1.2rem;
+  content: "";
+  margin: 5px 8px;
+}
+
+.socialmedia {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.socialmedia img {
+  display: inline-block;
+  width: 400px;
+  height: 275px;
+  border-radius: 20px;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */

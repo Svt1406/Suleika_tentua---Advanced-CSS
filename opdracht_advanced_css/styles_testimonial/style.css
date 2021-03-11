@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.navbar {
+  display: inline-block;
+}
+.navbar__li {
+  float: left;
+  list-style-type: none;
+}
+.navbar__ul {
+  margin-top: 35px;
+}
+.navbar__link {
+  background-color: #616060;
+  color: #B99D9C;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px 10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.navbar__link:hover {
+  background-color: #c3cfe2;
+  color: #D56664;
+  font-weight: bold;
+}
+
+.current-page {
+  background-color: #c3cfe2;
+  color: #616060;
+  border-bottom: 3px solid #616060;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body, html {
+  background: #c3cfe2;
+  line-height: 35px;
+  font-size: 1rem;
+  height: 100%;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 0.1rem;
+  color: #616060;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 50px;
+  color: #D56664;
+  font-weight: bold;
+}
+
+.testimonial {
+  width: 400px;
+  height: auto;
+  margin: 50px auto;
+}
+.testimonial__text {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 50px 25px;
+  font-weight: bold;
+  border-radius: 20px 20px 0px 0px;
+  padding: 40px 40px 90px 40px;
+}
+.testimonial__image {
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 40%;
+  transform: translateY(-80px);
+  display: block;
+  margin: 0 auto;
+}
+.testimonial__footer {
+  background-color: #686de0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  height: 200px;
+}
+.testimonial__title {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: -50px;
+  letter-spacing: 0.1rem;
+}
+.testimonial__subtitle {
+  color: #b9b3b3;
+  text-align: center;
+  margin-top: -40px;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

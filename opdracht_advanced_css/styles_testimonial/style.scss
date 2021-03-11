@@ -1,0 +1,56 @@
+@import '../styles_index/navigation';
+@import '../styles_index/variables';
+@import '../styles_index/general';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.testimonial {
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+
+    &__text {
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 50px 25px;
+        font-weight: bold;
+        border-radius: 20px 20px 0px 0px;
+        padding: 40px 40px 90px 40px;
+    }
+
+    &__image {
+        border-radius: 50%;
+        border: 6px solid white;
+        width: 40%;
+        transform: translateY(-80px);
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__footer {
+        background-color: $footerbackground;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+        height: 200px;
+    }
+
+    &__title {
+        text-align: center;
+        color: white;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-top: -50px;
+        letter-spacing: 0.1rem;
+    }
+    
+    &__subtitle {
+        color:rgb(185, 179, 179);
+        text-align: center;
+        margin-top: -40px;
+        font-weight: 900;
+    }
+}
+
+
+
+

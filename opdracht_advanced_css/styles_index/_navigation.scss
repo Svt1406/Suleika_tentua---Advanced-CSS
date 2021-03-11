@@ -1,0 +1,37 @@
+@import './variables';
+
+.navbar {
+    display: inline-block;
+
+    &__li {
+        float: left; 
+        list-style-type: none;
+    }
+
+    &__ul{
+        margin-top: 35px;
+    }
+
+    &__link {
+        background-color: $first;
+        color: $second;
+        padding: 5px 8px;  
+        border-radius: 5px;
+        box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+        margin: 10px 10px;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    &__link:hover {
+        background-color: $background;
+        color: $third;
+        font-weight: bold;
+        }
+}
+.current-page {
+        background-color: $background;
+        color: $first;
+        border-bottom: 3px solid $first;
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body,html {
+    background: $background;
+    line-height: 35px; 
+    font-size: 1rem;
+    height: 100%;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 0.1rem;
+    color: $first;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.title {
+    text-align: center; 
+    font-size: 1.3rem;
+    margin-top: 50px;
+    color: $third;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+@import '../styles_index/navigation';
+@import '../styles_index/variables';
+@import '../styles_index/general';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+ .portfolio {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    row-gap: 15px;
+    column-gap: 15px;
+    text-align: center;
+
+    &__box {
+        position: relative;
+    }
+
+.image { 
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+    &:hover {
+        opacity: 0;
+    }
+}
+
+.fade {
+    background: $first;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 600ms;
+    transition-timing-function: ease-in;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+button { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: $second;
+    color: white;
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
+}

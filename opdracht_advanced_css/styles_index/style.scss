@@ -1,0 +1,23 @@
+@import './navigation';
+@import './variables';
+@import './general';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.welkom {
+    margin-top: 50px;
+    text-align: center;
+    grid-gap: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.welkom img { 
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+
